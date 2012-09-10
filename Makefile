@@ -41,10 +41,10 @@
 
 
 # MCU name
-#MCU = atmega8
+MCU = atmega8
 #MCU = atmega88
-MCU = atmega168
-MCU = atmega328p
+#MCU = atmega168
+#MCU = atmega328p
 #MCU = atmega16
 #MCU = atmega32
 #MCU = atmega644
