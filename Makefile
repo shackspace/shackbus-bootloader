@@ -57,7 +57,7 @@ F_CPU = 14745600
 #F_CPU = 16000000
 
 # Bootloader address:
-BOOTLOADER_BOARD_ID = 0xff
+BOOTLOADER_BOARD_ID = 0x03
 
 # Startaddress of the bootloader (512 words)
 #     ATMega8/88    => 0x1C00
@@ -106,10 +106,10 @@ CPPSRC =
 ASRC = mcp2515_asm.S
 
 # Programming Options
-#AVRDUDE_PROGRAMMER = stk500
-#AVRDUDE_PORT = /dev/ttyUSB0
-AVRDUDE_PROGRAMMER = avrispmkII
-AVRDUDE_PORT = usb
+AVRDUDE_PROGRAMMER = stk500v2
+AVRDUDE_PORT = /dev/ttyUSB0
+#AVRDUDE_PROGRAMMER = avrispmkII
+#AVRDUDE_PORT = usb
 
 # Optimization level, can be [0, 1, 2, 3, s]. 
 #     0 = turn off optimization. s = optimize for size.
