@@ -118,7 +118,6 @@
 #if defined(__AVR_ATmega8__)
 	// $0C00
 	#define	RWW_PAGES	96
-	#define	RAMSTART	0x0060
 	#define	SIG_FAMILY	0x93
 	#define	SIG_DEVICE	0x07
 	#define	TIMER_INTERRUPT_FLAG_REGISTER	TIFR
@@ -126,7 +125,6 @@
 #elif defined(__AVR_ATmega88__)
 	// $0C00
 	#define	RWW_PAGES	96
-	#define	RAMSTART	0x0100
 	#define	SIG_FAMILY	0x93
 	#define	SIG_DEVICE	0x0A
 	#define	TIMER_INTERRUPT_FLAG_REGISTER	TIFR1
@@ -134,7 +132,6 @@
 #elif defined(__AVR_ATmega168__)
 	// $1C00
 	#define	RWW_PAGES	120
-	#define	RAMSTART	0x0100
 	#define	SIG_FAMILY	0x94
 	#define	SIG_DEVICE	0x06
 	#define	TIMER_INTERRUPT_FLAG_REGISTER	TIFR1
@@ -142,7 +139,6 @@
 #elif defined(__AVR_ATmega328P__)
 	// $3800
 	#define	RWW_PAGES	224
-	#define	RAMSTART	0x0100
 	#define	SIG_FAMILY	0x95
 	#define	SIG_DEVICE	0x0f
 	#define	TIMER_INTERRUPT_FLAG_REGISTER	TIFR1
@@ -150,7 +146,6 @@
 #elif defined(__AVR_ATmega16__)	// TODO
 	// $1C00
 	#define	RWW_PAGES	120
-	#define	RAMSTART	0x0060
 	#define	SIG_FAMILY	0x94
 	#define	SIG_DEVICE	0x03
 	#define	TIMER_INTERRUPT_FLAG_REGISTER	TIFR
@@ -158,7 +153,6 @@
 #elif defined(__AVR_ATmega32__)	// TODO
 	// $3800
 	#define	RWW_PAGES	224
-	#define	RAMSTART	0x0060
 	#define	SIG_FAMILY	0x95
 	#define	SIG_DEVICE	0x02
 	#define	TIMER_INTERRUPT_FLAG_REGISTER	TIFR
@@ -166,7 +160,6 @@
 #elif defined(__AVR_ATmega644__)	// TODO
 	// $7000
 	#define	RWW_PAGES	224
-	#define	RAMSTART	0x0100
 	#define	SIG_FAMILY	0x96
 	#define	SIG_DEVICE	0x09
 	#define	TIMER_INTERRUPT_FLAG_REGISTER	TIFR1

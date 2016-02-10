@@ -45,7 +45,7 @@ void
 mcp2515_write_register(uint8_t adress, uint8_t data);
 
 // ----------------------------------------------------------------------------
-static uint8_t PROGMEM mcp2515_register_map[45] = {
+const static uint8_t PROGMEM mcp2515_register_map[45] = {
 	0xff, 0xc0, 0x00, 0x00,				// Filter 0
 	0xff, 0xc0, 0x00, 0x00,				// Filter 1
 	0xff, 0xc0, 0x00, 0x00,				// Filter 2
