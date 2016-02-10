@@ -106,10 +106,10 @@ CPPSRC =
 ASRC = mcp2515_asm.S
 
 # Programming Options
-#AVRDUDE_PROGRAMMER = stk500
-#AVRDUDE_PORT = /dev/ttyUSB0
-AVRDUDE_PROGRAMMER = avrispmkII
-AVRDUDE_PORT = usb
+AVRDUDE_PROGRAMMER = stk500v2
+AVRDUDE_PORT = /dev/ttyUSB0
+#AVRDUDE_PROGRAMMER = avrispmkII
+#AVRDUDE_PORT = usb
 
 # Optimization level, can be [0, 1, 2, 3, s]. 
 #     0 = turn off optimization. s = optimize for size.
